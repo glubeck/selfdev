@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/glubeck/.nvm/versions/node/v6.0.0/bin/node',
+1 verbose cli   '/home/glubeck/.nvm/versions/node/v6.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git
+8 silly fetchOtherPackageData git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git
+9 silly cache add args [ 'git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git', null ]
+10 verbose cache add spec git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git',
+11 silly cache add   spec: 'ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git',
+11 silly cache add   type: 'git' }
+12 verbose addRemoteGit caching git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git
+13 silly tryClone cloning git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git via git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git
+14 verbose tryClone git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433 not in flight; caching
+15 verbose correctMkdir /home/glubeck/.npm/_git-remotes correctMkdir not in flight; initializing
+16 info git [ 'clone',
+16 info git   '--template=/home/glubeck/.npm/_git-remotes/_templates',
+16 info git   '--mirror',
+16 info git   'ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git',
+16 info git   '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433' ]
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: Cloning into bare repository '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433'...
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: no such identity: /home/user/.ssh/id_rsa: No such file or directory
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: Permission denied (publickey).
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: fatal: Could not read from remote repository.
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433:
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: Please make sure you have the correct access rights
+17 error git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433: and the repository exists.
+18 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433
+18 silly fetchPackageMetaData Cloning into bare repository '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433'...
+18 silly fetchPackageMetaData no such identity: /home/user/.ssh/id_rsa: No such file or directory
+18 silly fetchPackageMetaData Permission denied (publickey).
+18 silly fetchPackageMetaData fatal: Could not read from remote repository.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData Please make sure you have the correct access rights
+18 silly fetchPackageMetaData and the repository exists.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+18 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+18 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+18 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+18 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+18 silly fetchPackageMetaData  error for git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git { Error: Command failed: git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433
+18 silly fetchPackageMetaData Cloning into bare repository '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433'...
+18 silly fetchPackageMetaData no such identity: /home/user/.ssh/id_rsa: No such file or directory
+18 silly fetchPackageMetaData Permission denied (publickey).
+18 silly fetchPackageMetaData fatal: Could not read from remote repository.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData Please make sure you have the correct access rights
+18 silly fetchPackageMetaData and the repository exists.
+18 silly fetchPackageMetaData
+18 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+18 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+18 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+18 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+18 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+18 silly fetchPackageMetaData   killed: false,
+18 silly fetchPackageMetaData   code: 128,
+18 silly fetchPackageMetaData   signal: null,
+18 silly fetchPackageMetaData   cmd: 'git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433' }
+19 silly rollbackFailedOptional Starting
+20 silly rollbackFailedOptional Finishing
+21 silly runTopLevelLifecycles Starting
+22 silly runTopLevelLifecycles Finishing
+23 silly install printInstalled
+24 verbose stack Error: Command failed: git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433
+24 verbose stack Cloning into bare repository '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433'...
+24 verbose stack no such identity: /home/user/.ssh/id_rsa: No such file or directory
+24 verbose stack Permission denied (publickey).
+24 verbose stack fatal: Could not read from remote repository.
+24 verbose stack
+24 verbose stack Please make sure you have the correct access rights
+24 verbose stack and the repository exists.
+24 verbose stack
+24 verbose stack     at ChildProcess.exithandler (child_process.js:202:12)
+24 verbose stack     at emitTwo (events.js:106:13)
+24 verbose stack     at ChildProcess.emit (events.js:191:7)
+24 verbose stack     at maybeClose (internal/child_process.js:850:16)
+24 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+25 verbose cwd /home/glubeck/personal-dev/angular2-tour-of-heroes
+26 error Linux 3.16.0-71-generic
+27 error argv "/home/glubeck/.nvm/versions/node/v6.0.0/bin/node" "/home/glubeck/.nvm/versions/node/v6.0.0/bin/npm" "install" "--save" "git+ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git"
+28 error node v6.0.0
+29 error npm  v3.8.6
+30 error code 128
+31 error Command failed: git clone --template=/home/glubeck/.npm/_git-remotes/_templates --mirror ssh://git@stash.mtc.byu.edu/amod/mtc-auth2.git /home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433
+31 error Cloning into bare repository '/home/glubeck/.npm/_git-remotes/git-ssh-git-stash-mtc-byu-edu-amod-mtc-auth2-git-3bce3433'...
+31 error no such identity: /home/user/.ssh/id_rsa: No such file or directory
+31 error Permission denied (publickey).
+31 error fatal: Could not read from remote repository.
+31 error
+31 error Please make sure you have the correct access rights
+31 error and the repository exists.
+32 error If you need help, you may report this error at:
+32 error     <https://github.com/npm/npm/issues>
+33 verbose exit [ 1, true ]
